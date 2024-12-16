@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace ErcaspaySDK.Interfaces
-{
+namespace ErcaspaySDK.Interfaces;
+
     /// <summary>
     /// Represents the request structure for initiating a checkout transaction.
     /// </summary>
@@ -191,4 +191,4 @@ namespace ErcaspaySDK.Interfaces
         /// </summary>
         ICustomer Customer { get; set; }
     }
-}
+
