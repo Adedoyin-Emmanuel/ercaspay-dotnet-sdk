@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ErcaspaySDK.Interfaces;
+namespace ErcaspaySDK.Core.Interfaces;
 
     /// <summary>
     /// Represents the request structure for initiating a checkout transaction.

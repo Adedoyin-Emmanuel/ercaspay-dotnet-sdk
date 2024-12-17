@@ -1,5 +1,5 @@
-namespace YourNamespace
-{
+namespace ErcaspaySDK.Core.Interfaces;
+
     /// <summary>
     /// Represents a base response structure for API requests.
     /// </summary>
@@ -31,4 +31,3 @@ namespace YourNamespace
         /// </summary>
         TResponse ResponseBody { get; set; }
     }
-}

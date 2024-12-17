@@ -1,4 +1,4 @@
-using YourNamespace;
+using ErcaspaySDK.Core;
 
 namespace ErcaspaySDK.Core.Interfaces;
 
@@ -11,8 +11,6 @@ public class ErcaspayBankTransfer : ErcaspayBase
     private const string BankTransferBaseUrl = "/payment/bank-transfer";
     
     
-    
-   
     /// <summary>
     /// Initializes an instance of the ErcaspayBankTransfer class.
     /// </summary>

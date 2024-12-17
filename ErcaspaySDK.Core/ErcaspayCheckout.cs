@@ -1,10 +1,7 @@
-using System;
 using System.Net.Http.Json;
-using System.Threading.Tasks;
-using ErcaspaySDK.Interfaces;
-using YourNamespace;
+using ErcaspaySDK.Core.Interfaces;
 
-namespace ErcaspaySDK;
+namespace ErcaspaySDK.Core;
 
     /// <summary>
     /// Provides methods for interacting with the Ercaspay Checkout API.
