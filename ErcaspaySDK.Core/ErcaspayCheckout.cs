@@ -25,8 +25,19 @@ namespace ErcaspaySDK;
             IInitiateCheckoutTransactionRequest data)
         {
             var response = await Client.PostAsJsonAsync($"{CheckoutBaseUrl}/initiate", data);
-
             return await HandleResponse<IBaseResponse<IInitiateCheckoutTransactionResponse>>(response);
+        }
 
+        /// <summary>
+        /// Verifies the status of a transaction by sending a GET request with the transaction reference.
+        /// </summary>
+        /// <param name="transactionReference">The reference of the transaction to verify.</param>
+        /// <returns>A task that represents the asynchronous operation. The task result contains the response body.</returns>
+        public async Task<IBaseResponse<IVerifyCheckoutTransactionResponse>> VerifyTransaction(
+            string transactionReference)
+        {
+            var response = await Client.GetAsync($"{CheckoutBaseUrl}/transaction/verify/{transactionReference}");
+            
+            return await HandleResponse<IBaseResponse<IVerifyCheckoutTransactionResponse>>(response);
         }
     }
