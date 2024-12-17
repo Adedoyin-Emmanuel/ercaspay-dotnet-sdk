@@ -54,13 +54,11 @@ namespace ErcaspaySDK;
 
             BaseUrl = Environment == "development" ? SANDBOX_URL : PRODUCTION_URL;
 
-            // Initialize HttpClient with base settings
             Client = new HttpClient
             {
                 BaseAddress = new Uri(BaseUrl)
             };
 
-            // Set default headers
             Client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             Client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", SecretKey);
         }
@@ -76,12 +74,10 @@ namespace ErcaspaySDK;
         {
             if (!response.IsSuccessStatusCode)
             {
-                // Read error message from response
                 var errorContent = await response.Content.ReadAsStringAsync();
                 throw new HttpRequestException(errorContent);
             }
 
-            // Deserialize the response content
             var content = await response.Content.ReadAsStringAsync();
             return System.Text.Json.JsonSerializer.Deserialize<T>(content, new System.Text.Json.JsonSerializerOptions
             {
