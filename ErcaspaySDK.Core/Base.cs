@@ -3,8 +3,8 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace ErcaspaySDK;
-
+namespace ErcaspaySDK
+{
     /// <summary>
     /// Base class for interacting with the Ercaspay API.
     /// Provides a configurable HTTP client with predefined headers, 
@@ -15,7 +15,7 @@ namespace ErcaspaySDK;
         /// <summary>
         /// The secret key for authenticating API requests.
         /// </summary>
-        protected readonly string SecretKey;
+        private readonly string SecretKey;
 
         /// <summary>
         /// The HttpClient instance for making HTTP requests.
@@ -85,4 +85,4 @@ namespace ErcaspaySDK;
             });
         }
     }
-
+}
