@@ -9,6 +9,8 @@
 
 [View Package On Nuget Gallery](https://www.nuget.org/packages/ErcaspaySDK)
 
+[View Our TypeScript / JavaScript SDK](https://github.com/Adedoyin-Emmanuel/ercaspay-js-sdk)
+
 # Table Of Content
 - [Table Of Content](#table-of-content)
     - [Introduction 🚀](#introduction-)
