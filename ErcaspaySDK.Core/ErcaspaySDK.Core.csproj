@@ -4,14 +4,35 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Copyright>©2024-2024 , Adedoyin Emmanuel Adeniyi. All Rights reserved.</Copyright>
+    <PackageReleaseNotes>- add multiline env var support</PackageReleaseNotes>
+    <Authors>Adedoyin Emmanuel Adeniyi</Authors>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageId>ErcaspaySDK</PackageId>
+    <Description>A convenient interface for interacting with Ercaspay Payment Gateway in your applications</Description>
+    <PackageProjectUrl>https://github.com/Adedoyin-Emmanuel/ercaspay-dotnet-sdk</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Adedoyin-Emmanuel/ercaspay-dotnet-sdk/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Adedoyin-Emmanuel/ercaspay-dotnet-sdk</RepositoryUrl>
+    <LangVersion>default</LangVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageVersion>1.0.0</PackageVersion>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ercaspay, payment-sdk, ercaspay-sdk, payment-integration</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <NeutralLanguage>en-NG</NeutralLanguage>
+    <Title>ErcaspaySDK</Title>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Utils\" />
   </ItemGroup>
 
+  
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.11.0" />
   </ItemGroup>
-
+  
 </Project>
