@@ -2,6 +2,13 @@
 
 **Ercaspay Dotnet SDK**. Built with ❣️ by Team Godspeed
 
+
+[View our Presentation Slides](https://docs.google.com/presentation/d/1sULf_oTw_Na7RITZjlCxObEcCLXYJHUkC7uZQ2Amixg/edit#slide=id.g31fdb22fe15_0_6)
+
+[Read our Hackathon Experience](https://adedoyin.hashnode.dev/ercaspay-hackathon-experience)
+
+[View Package On Nuget Gallery](https://www.nuget.org/packages/ErcaspaySDK)
+
 # Table Of Content
 - [Table Of Content](#table-of-content)
     - [Introduction 🚀](#introduction-)
